@@ -36,8 +36,13 @@ header {
       text-align: left;
   }
 
+  h2 {
+      padding-bottom: 4px;
+  }
+
   article section img{
-      width: 25%;
+      width: 40%;
+      padding: 8px;
   }
 
   article header {
@@ -46,7 +51,7 @@ header {
       padding: 20px;
   }
 
-  section {
+  article section {
       text-align: center;
   }
 
@@ -63,13 +68,13 @@ header {
   .Individual {
     border-radius: 5px;
     border-style: double;
-    flex: 4;
+    flex: 0 0 400px;
     padding: 12px;
     margin: 20px;
   }
 
   footer{
-      padding: 12px;
+      padding: 16px;
       text-align: center;
       background-color: black;
       color: #fff;
